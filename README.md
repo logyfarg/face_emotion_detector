@@ -19,8 +19,36 @@ A machine learning project that detects **human emotions** in real-time using yo
 
 ## 🚀 How to Run
 
-### 1. Clone this repo
+1. Clone this repo
 
 ```bash
 git clone https://github.com/logyfarg/face-emotion-detector.git
 cd face-emotion-detector
+
+2. Install requirements:
+pip install -r requirements.txt
+
+3. Run the webcam:
+python live_emotion_detector.py
+
+🏗 Project Structure
+face-emotion-detector/
+│
+├── model/
+│   └── emotion_model.h5         # Trained model file
+├── train_model.py               # CNN training script
+├── live_emotion_detector.py     # Webcam prediction code
+├── requirements.txt             # Python dependencies
+└── README.md                    # This file
+
+Tech Stack
+Python
+
+TensorFlow / Keras
+
+OpenCV
+
+NumPy
+👩‍💻 Author
+Built with ❤️ by Logina Mahmoud
+
